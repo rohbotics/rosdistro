@@ -27,5 +27,11 @@ distributions:
     doc_builds: [jade/doc-build.yaml]
     release_builds: [jade/release-build.yaml]
     source_builds: [jade/source-build.yaml]
+  ubiquity_indigo:
+    distribution: ubiquity_indigo/distribution.yaml
+    distribution_cache: http://helium.local/rosdistro_cache/ubiquity_indigo-cache.yaml.gz
+    doc_builds: [indigo/doc-build.yaml]
+    release_builds: [indigo/release-build.yaml]
+    source_builds: [indigo/source-build.yaml]
 type: index
 version: 2
