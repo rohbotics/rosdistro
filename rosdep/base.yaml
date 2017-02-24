@@ -2588,6 +2588,13 @@ libqwtplot3d-qt4-dev:
   ubuntu:
     apt:
       packages: [libqwtplot3d-qt4-dev]
+libraspberrypi0:
+  debian:
+    apt:
+      packages: [libraspberrypi0]
+  ubuntu:
+    apt:
+      packages: [libraspberrypi0]
 libraw1394-dev:
   arch:
     pacman:
